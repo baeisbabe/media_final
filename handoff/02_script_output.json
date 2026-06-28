@@ -1,0 +1,59 @@
+{
+  "agent_name": "Script Agent",
+  "input_source": "handoff/01_planner_output.json",
+  "script_style": "簡潔、正向、適合高中生、新生、家長與一般觀眾",
+  "revision_policy": [
+    "Remove unverifiable claims.",
+    "Keep subtitles readable within a 60-second video.",
+    "Avoid ranking, employment rate, admission score, award, funding or partnership claims unless cited."
+  ],
+  "scenes": [
+    {
+      "scene_id": "01",
+      "time_range": "00:00-00:05",
+      "narration": "用資訊技術，把想法變成可以實作的作品。",
+      "subtitle": "用資訊技術，把想法變成可以實作的作品。",
+      "estimated_seconds": 5
+    },
+    {
+      "scene_id": "02",
+      "time_range": "00:05-00:15",
+      "narration": "國立臺南大學資訊工程學系，培養理解問題、設計系統與實作應用的人才。",
+      "subtitle": "國立臺南大學資訊工程學系，培養理解問題、設計系統與實作應用的人才。",
+      "estimated_seconds": 10
+    },
+    {
+      "scene_id": "03",
+      "time_range": "00:15-00:30",
+      "narration": "從程式設計、人工智慧、資料處理到系統與網路，學習不只停在概念，也落實在動手實作。",
+      "subtitle": "從程式設計、人工智慧、資料處理到系統與網路，學習不只停在概念，也落實在動手實作。",
+      "estimated_seconds": 15
+    },
+    {
+      "scene_id": "04",
+      "time_range": "00:30-00:45",
+      "narration": "在專題與團隊合作中，學生練習溝通、分工與展示，把技術轉化成能被理解的成果。",
+      "subtitle": "在專題與團隊合作中，學生練習溝通、分工與展示，把技術轉化成能被理解的成果。",
+      "estimated_seconds": 15
+    },
+    {
+      "scene_id": "05",
+      "time_range": "00:45-00:55",
+      "narration": "學習的過程，也包含提問、討論與彼此支援。",
+      "subtitle": "學習的過程，也包含提問、討論與彼此支援。",
+      "estimated_seconds": 10
+    },
+    {
+      "scene_id": "06",
+      "time_range": "00:55-01:00",
+      "narration": "歡迎認識國立臺南大學資訊工程學系。",
+      "subtitle": "歡迎認識國立臺南大學資訊工程學系。",
+      "estimated_seconds": 5
+    }
+  ],
+  "output_files": [
+    "outputs/subtitles_draft.md",
+    "outputs/subtitles.srt"
+  ]
+}
+

@@ -1,0 +1,73 @@
+{
+  "agent_name": "Reviewer Agent",
+  "input_sources": [
+    "handoff/01_planner_output.json",
+    "handoff/02_script_output.json",
+    "handoff/03_visual_output.json"
+  ],
+  "overall_score_from_raw_hermes_output": 4.75,
+  "final_review_status": "Pass with manual completion required",
+  "scene_reviews": [
+    {
+      "scene_id": "01",
+      "length_review": "Fits 5-second opening hook.",
+      "topic_fit_review": "Connects information technology with project-making.",
+      "risk_review": "Low risk if screen footage avoids private data.",
+      "revision_suggestion": "Use self-made footage and avoid credentials."
+    },
+    {
+      "scene_id": "02",
+      "length_review": "Fits 10-second department positioning.",
+      "topic_fit_review": "Clearly identifies NUTN CSIE.",
+      "risk_review": "Official logo requires permission.",
+      "revision_suggestion": "Use text title unless logo permission is confirmed."
+    },
+    {
+      "scene_id": "03",
+      "length_review": "Fits 15-second learning feature section.",
+      "topic_fit_review": "Covers programming, AI, data, systems and networks.",
+      "risk_review": "Avoid showing private repositories, accounts or sensitive code.",
+      "revision_suggestion": "Use demo content or blurred screens if needed."
+    },
+    {
+      "scene_id": "04",
+      "length_review": "Fits 15-second teamwork/project section.",
+      "topic_fit_review": "Shows hands-on project development and communication.",
+      "risk_review": "Awards, rankings and official outcomes must not be claimed without citation.",
+      "revision_suggestion": "Focus on general teamwork and demo footage."
+    },
+    {
+      "scene_id": "05",
+      "length_review": "Fits 10-second learning atmosphere section.",
+      "topic_fit_review": "Shows discussion and peer support.",
+      "risk_review": "Recognizable portraits require consent.",
+      "revision_suggestion": "Use wide shots or obtain consent."
+    },
+    {
+      "scene_id": "06",
+      "length_review": "Fits 5-second closing.",
+      "topic_fit_review": "Provides clear call-to-action.",
+      "risk_review": "Official logo requires permission.",
+      "revision_suggestion": "Use ending text card if permission is not confirmed."
+    }
+  ],
+  "main_strengths": [
+    "The workflow uses five specialized agents with clear boundaries.",
+    "The video structure follows the 60-second NUTN CSIE promotional topic.",
+    "The project includes handoff files, trace, baseline comparison and safety notes."
+  ],
+  "main_issues": [
+    "The final MP4, actual duration and file size still need to be confirmed.",
+    "Asset sources and permissions need to be filled after final editing.",
+    "Runtime screenshots still need to be added by the project owner."
+  ],
+  "required_revisions": [
+    "Add final_video.mp4 and confirm it is between 55 and 65 seconds.",
+    "Complete outputs/asset_sources.md with real asset sources and licenses.",
+    "Add runtime screenshots under traces/screenshots/.",
+    "Fill team members and public GitHub repository URL in report and README.",
+    "Do not include unverified claims about ranking, employment rate, admission score, funding, awards or official partnerships."
+  ],
+  "whether_passed": true
+}
+

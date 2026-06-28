@@ -1,0 +1,78 @@
+{
+  "agent_name": "Finalizer Agent",
+  "input_sources": [
+    "handoff/04_reviewer_feedback.json",
+    "handoff/01_planner_output.json",
+    "handoff/02_script_output.json",
+    "handoff/03_visual_output.json"
+  ],
+  "final_scene_table": [
+    {
+      "scene_id": "01",
+      "time_range": "00:00-00:05",
+      "caption_text": "用資訊技術，把想法變成可以實作的作品。",
+      "editing_note": "Use fast opening B-roll and avoid private screen content."
+    },
+    {
+      "scene_id": "02",
+      "time_range": "00:05-00:15",
+      "caption_text": "國立臺南大學資訊工程學系，培養理解問題、設計系統與實作應用的人才。",
+      "editing_note": "Use text title and campus/classroom footage."
+    },
+    {
+      "scene_id": "03",
+      "time_range": "00:15-00:30",
+      "caption_text": "從程式設計、人工智慧、資料處理到系統與網路，學習不只停在概念，也落實在動手實作。",
+      "editing_note": "Use safe demo screens and hands-on learning footage."
+    },
+    {
+      "scene_id": "04",
+      "time_range": "00:30-00:45",
+      "caption_text": "在專題與團隊合作中，學生練習溝通、分工與展示，把技術轉化成能被理解的成果。",
+      "editing_note": "Use team discussion and prototype/demo footage without unverifiable claims."
+    },
+    {
+      "scene_id": "05",
+      "time_range": "00:45-00:55",
+      "caption_text": "學習的過程，也包含提問、討論與彼此支援。",
+      "editing_note": "Use learning atmosphere footage and confirm portrait consent."
+    },
+    {
+      "scene_id": "06",
+      "time_range": "00:55-01:00",
+      "caption_text": "歡迎認識國立臺南大學資訊工程學系。",
+      "editing_note": "Use ending text card. Use official logo only if permission is confirmed."
+    }
+  ],
+  "final_editing_checklist": [
+    "Export final video as outputs/final_video.mp4.",
+    "Confirm final duration is between 55 and 65 seconds.",
+    "Use subtitles.srt or burned-in subtitles.",
+    "Use ChatGPT-generated images only after recording generation dates, output filenames, and usage terms.",
+    "Use Suno-generated background music only after recording song title, output filename, and usage terms.",
+    "Use Microsoft Clipchamp to assemble images/video, subtitles, narration/music, and export MP4.",
+    "Complete asset_sources.md with ChatGPT, Suno, Clipchamp, font, and final output details.",
+    "Keep runtime screenshots under traces/screenshots/.",
+    "Convert report/Final_Report_Draft.md to PDF."
+  ],
+  "final_asset_source_checklist": [
+    "Self-made footage filenames",
+    "ChatGPT image output filenames, generation dates, prompt reference, and usage terms",
+    "Suno song title, output filename, generation date, and usage terms",
+    "Microsoft Clipchamp editing/export disclosure",
+    "Font source and license or Clipchamp built-in font declaration",
+    "Logo permission or text-only replacement",
+    "Portrait consent if recognizable people appear"
+  ],
+  "github_submission_checklist": [
+    "Set repository to Public.",
+    "Submit the repository homepage URL to Ecourse.",
+    "Do not upload API keys, tokens, passwords, cookies or private credentials.",
+    "Keep final_video.mp4, report PDF, agents, handoff, traces, outputs and baseline in the repo."
+  ],
+  "final_video_note": "The final MP4 must be edited/exported in Clipchamp and verified manually. ChatGPT image assets and Suno music must be disclosed in asset_sources.md before submission.",
+  "agent_notes": [
+    "Raw Hermes suggestions were filtered to remove unverifiable claims and permission-sensitive items.",
+    "This finalizer output is intended as a clean submission checklist and scene table."
+  ]
+}

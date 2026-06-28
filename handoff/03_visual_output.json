@@ -1,0 +1,153 @@
+{
+  "agent_name": "Visual Agent",
+  "input_sources": [
+    "handoff/01_planner_output.json",
+    "handoff/02_script_output.json"
+  ],
+  "storyboard": [
+    {
+      "scene_id": "01",
+      "time_range": "00:00-00:05",
+      "visual_plan": [
+        "Campus, keyboard, laptop or code close-up.",
+        "Fast opening B-roll with a clear title overlay."
+      ],
+      "shot_list": [
+        "Close-up of typing or laptop screen without private information.",
+        "Short campus or classroom establishing shot."
+      ],
+      "needed_assets": [
+        "self-made video footage",
+        "text title"
+      ],
+      "risk_notes": [
+        "Avoid passwords, accounts, private files and private chat windows."
+      ]
+    },
+    {
+      "scene_id": "02",
+      "time_range": "00:05-00:15",
+      "visual_plan": [
+        "Show department title as text.",
+        "Use classroom, hallway or campus exterior footage."
+      ],
+      "shot_list": [
+        "Text card: 國立臺南大學資訊工程學系.",
+        "Classroom or learning environment B-roll."
+      ],
+      "needed_assets": [
+        "self-made footage",
+        "text graphic"
+      ],
+      "risk_notes": [
+        "Use official logo only if permission is confirmed."
+      ]
+    },
+    {
+      "scene_id": "03",
+      "time_range": "00:15-00:30",
+      "visual_plan": [
+        "Programming, AI/data/system/network practice.",
+        "Hands-on learning and screen shots without sensitive data."
+      ],
+      "shot_list": [
+        "Student or hand operating laptop.",
+        "Whiteboard or code editor with non-sensitive demo content.",
+        "Simple hardware/software practice footage."
+      ],
+      "needed_assets": [
+        "self-made footage",
+        "demo screen content"
+      ],
+      "risk_notes": [
+        "Do not show real credentials, grades, private repositories or unreleased personal projects."
+      ]
+    },
+    {
+      "scene_id": "04",
+      "time_range": "00:30-00:45",
+      "visual_plan": [
+        "Team discussion, project planning and demonstration.",
+        "Show cooperation without making unverified competition or award claims."
+      ],
+      "shot_list": [
+        "Whiteboard discussion.",
+        "Group work over laptops.",
+        "Short prototype/demo shot."
+      ],
+      "needed_assets": [
+        "self-made footage",
+        "project/demo visuals"
+      ],
+      "risk_notes": [
+        "Do not claim awards, rankings or official results unless cited."
+      ]
+    },
+    {
+      "scene_id": "05",
+      "time_range": "00:45-00:55",
+      "visual_plan": [
+        "Learning atmosphere, peer support and discussion.",
+        "Teacher-student interaction only with consent."
+      ],
+      "shot_list": [
+        "Classroom discussion.",
+        "Peer explanation or group review.",
+        "Walking shot in corridor or campus."
+      ],
+      "needed_assets": [
+        "self-made footage",
+        "portrait consent if recognizable"
+      ],
+      "risk_notes": [
+        "Avoid close-up portraits without permission."
+      ]
+    },
+    {
+      "scene_id": "06",
+      "time_range": "00:55-01:00",
+      "visual_plan": [
+        "Ending text card with department name and call-to-action.",
+        "Use clean background or campus shot."
+      ],
+      "shot_list": [
+        "Final text: 歡迎認識國立臺南大學資訊工程學系."
+      ],
+      "needed_assets": [
+        "self-made text graphic"
+      ],
+      "risk_notes": [
+        "Do not use official logo unless permission is confirmed."
+      ]
+    }
+  ],
+  "asset_folder_plan": {
+    "scene_01": [
+      "opening_broll"
+    ],
+    "scene_02": [
+      "department_title",
+      "campus_or_classroom"
+    ],
+    "scene_03": [
+      "learning_features",
+      "safe_demo_screen"
+    ],
+    "scene_04": [
+      "teamwork",
+      "project_demo"
+    ],
+    "scene_05": [
+      "learning_atmosphere",
+      "peer_discussion"
+    ],
+    "scene_06": [
+      "ending_text_card"
+    ]
+  },
+  "output_files": [
+    "outputs/final_shooting_plan.md",
+    "outputs/asset_sources.md"
+  ]
+}
+

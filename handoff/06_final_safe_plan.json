@@ -1,0 +1,79 @@
+{
+  "agent_name": "Finalizer Agent",
+  "purpose": "Reviewed and safer final plan for submission after filtering Hermes mock/stub outputs.",
+  "source_files": [
+    "handoff/01_planner_output.json",
+    "handoff/02_script_output.json",
+    "handoff/03_visual_output.json",
+    "handoff/04_reviewer_feedback.json",
+    "handoff/05_finalizer_output.json"
+  ],
+  "video_length_seconds_target": 60,
+  "allowed_range_seconds": [55, 65],
+  "final_scene_table": [
+    {
+      "scene_id": "01",
+      "time_range": "00:00-00:05",
+      "purpose": "Opening hook linking information technology with future learning.",
+      "visual_plan": "Campus, keyboard, laptop, code or fast B-roll.",
+      "subtitle": "用資訊技術，把想法變成可以實作的作品。"
+    },
+    {
+      "scene_id": "02",
+      "time_range": "00:05-00:15",
+      "purpose": "Introduce the department theme clearly.",
+      "visual_plan": "Department title text, classroom or campus exterior.",
+      "subtitle": "國立臺南大學資訊工程學系，培養理解問題、設計系統與實作應用的人才。"
+    },
+    {
+      "scene_id": "03",
+      "time_range": "00:15-00:30",
+      "purpose": "Show learning features without unverifiable claims.",
+      "visual_plan": "Programming, AI/data/system/network practice, screen close-up without private data.",
+      "subtitle": "從程式設計、人工智慧、資料處理到系統與網路，學習不只停在概念，也落實在動手實作。"
+    },
+    {
+      "scene_id": "04",
+      "time_range": "00:30-00:45",
+      "purpose": "Show project development and teamwork.",
+      "visual_plan": "Whiteboard discussion, group work, prototype or demo footage.",
+      "subtitle": "在專題與團隊合作中，學生練習溝通、分工與展示，把技術轉化成能被理解的成果。"
+    },
+    {
+      "scene_id": "05",
+      "time_range": "00:45-00:55",
+      "purpose": "Show learning atmosphere.",
+      "visual_plan": "Classroom, corridor, peer discussion, teacher-student interaction with consent.",
+      "subtitle": "學習的過程，也包含提問、討論與彼此支援。"
+    },
+    {
+      "scene_id": "06",
+      "time_range": "00:55-01:00",
+      "purpose": "Closing call-to-action.",
+      "visual_plan": "Text ending card. Use official logo only if permission is confirmed.",
+      "subtitle": "歡迎認識國立臺南大學資訊工程學系。"
+    }
+  ],
+  "removed_or_rewritten_risks": [
+    "Unverified claims about international collaboration or external funding were removed.",
+    "Competition awards, rankings, admission scores and employment outcomes are not used unless later cited.",
+    "Official logos are replaced by text titles unless permission is confirmed.",
+    "Recognizable portraits require consent."
+  ],
+  "production_tools": {
+    "ai_scene_images": "ChatGPT",
+    "ai_background_music": "Suno",
+    "video_editing": "Microsoft Clipchamp",
+    "note": "These tools are disclosed for final asset production and do not replace the Hermes Agent workflow."
+  },
+  "human_confirmation_required": [
+    "Actual final video length",
+    "Final MP4 filename and file size",
+    "Team member names and student IDs",
+    "GitHub repository URL",
+    "ChatGPT image filenames, generation dates, and usage terms",
+    "Suno song title, output filename, generation date, and usage terms",
+    "Clipchamp editing/export disclosure",
+    "Asset licenses and portrait permissions"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "agent_name": "Planner Agent",
+  "project_title": "國立臺南大學資訊工程學系 60 秒形象宣傳影片",
+  "platform": "Hermes Agent",
+  "execution_mode": "zero-paid-token mock/stub dry-run",
+  "target_audience": [
+    "高中生",
+    "新生",
+    "家長",
+    "一般觀眾"
+  ],
+  "core_message": [
+    "資訊工程學習不只包含概念理解，也包含實作、溝通與展示。",
+    "影片以程式設計、人工智慧、資料、系統、網路、專題實作與團隊合作作為主要內容。",
+    "內容避免未經查證的排名、就業率、錄取分數、競賽成果、外部資金或官方合作主張。"
+  ],
+  "video_length_seconds_target": 60,
+  "allowed_range_seconds": [
+    55,
+    65
+  ],
+  "scenes": [
+    {
+      "scene_id": "01",
+      "time_range": "00:00-00:05",
+      "purpose": "Opening hook",
+      "visual_plan": "Campus, keyboard, laptop, code or fast B-roll.",
+      "message": "用資訊技術，把想法變成可以實作的作品。"
+    },
+    {
+      "scene_id": "02",
+      "time_range": "00:05-00:15",
+      "purpose": "Department positioning",
+      "visual_plan": "Department title text, classroom or campus exterior.",
+      "message": "國立臺南大學資訊工程學系，培養理解問題、設計系統與實作應用的人才。"
+    },
+    {
+      "scene_id": "03",
+      "time_range": "00:15-00:30",
+      "purpose": "Learning features",
+      "visual_plan": "Programming, AI/data/system/network practice, hands-on footage.",
+      "message": "從程式設計、人工智慧、資料處理到系統與網路，學習不只停在概念，也落實在動手實作。"
+    },
+    {
+      "scene_id": "04",
+      "time_range": "00:30-00:45",
+      "purpose": "Student development and teamwork",
+      "visual_plan": "Whiteboard discussion, group work, prototype/demo, presentation practice.",
+      "message": "在專題與團隊合作中，學生練習溝通、分工與展示，把技術轉化成能被理解的成果。"
+    },
+    {
+      "scene_id": "05",
+      "time_range": "00:45-00:55",
+      "purpose": "Learning atmosphere",
+      "visual_plan": "Classroom, corridor, peer discussion, teacher-student interaction with consent.",
+      "message": "學習的過程，也包含提問、討論與彼此支援。"
+    },
+    {
+      "scene_id": "06",
+      "time_range": "00:55-01:00",
+      "purpose": "Closing call-to-action",
+      "visual_plan": "Ending text card. Use official logo only if permission is confirmed.",
+      "message": "歡迎認識國立臺南大學資訊工程學系。"
+    }
+  ],
+  "asset_policy": {
+    "allowed": [
+      "self-made video footage",
+      "self-made text graphics",
+      "openly licensed music/images/fonts",
+      "course-allowed materials"
+    ],
+    "restricted": [
+      "unlicensed music, images, videos, fonts or templates",
+      "unconfirmed school or department logos",
+      "recognizable people without consent",
+      "private account screens or credentials"
+    ]
+  },
+  "review_items": [
+    "length",
+    "theme fit",
+    "truthfulness",
+    "copyright",
+    "portrait rights",
+    "privacy",
+    "zero-paid-token compliance"
+  ]
+}
+
